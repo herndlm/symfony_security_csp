@@ -1,8 +1,10 @@
 {
+    "name": "monojp/symfony_security_csp",
+    "description": "Example for Symfony issue #29084",
     "type": "project",
     "license": "proprietary",
     "require": {
-        "php": "^7.2.5",
+        "php": "^7.4",
         "ext-ctype": "*",
         "ext-iconv": "*",
         "sensio/framework-extra-bundle": "^6.0",
@@ -30,6 +32,7 @@
         "symfony/yaml": "5.2.*"
     },
     "require-dev": {
+        "roave/security-advisories": "dev-master",
         "symfony/debug-pack": "*",
         "symfony/maker-bundle": "^1.0",
         "symfony/profiler-pack": "*",
