@@ -11,11 +11,6 @@ use Symfony\Component\Routing\Annotation\Route;
 
 final class TestController extends AbstractController
 {
-    private function createTestResponse(): Response
-    {
-        return Response::create('<html><head><title>test</title></head><body><div>test</div></body></html>');
-    }
-
     /**
      * @Route("/test", name="test")
      */
@@ -29,8 +24,13 @@ final class TestController extends AbstractController
      */
     public function testDump(): Response
     {
-        /** @noinspection ForgottenDebugOutputInspection */
         dump(new DateTimeImmutable());
+
         return $this->createTestResponse();
+    }
+
+    private function createTestResponse(): Response
+    {
+        return new Response('<html lang="en"><head><title>test</title></head><body><div>test</div></body></html>');
     }
 }
