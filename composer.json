@@ -73,7 +73,8 @@
         ],
         "post-update-cmd": [
             "@auto-scripts"
-        ]
+        ],
+        "start": "php -t public -S localhost:8080"
     },
     "conflict": {
         "symfony/symfony": "*"
