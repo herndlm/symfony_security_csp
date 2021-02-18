@@ -25,7 +25,6 @@
         "symfony/notifier": "5.2.*",
         "symfony/process": "5.2.*",
         "symfony/security-bundle": "5.2.*",
-        "symfony/serializer-pack": "*",
         "symfony/string": "5.2.*",
         "symfony/translation": "5.2.*",
         "symfony/twig-bundle": "5.2.*",
