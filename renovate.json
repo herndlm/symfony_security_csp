@@ -1,7 +1,10 @@
 {
   "extends": [
     "config:base",
-    ":rebaseStalePrs"
+    ":rebaseStalePrs",
+    ":semanticCommits",
+    ":semanticCommitScopeDisabled",
+    ":semanticCommitTypeAll(chore)"
   ],
   "rangeStrategy": "update-lockfile"
 }
