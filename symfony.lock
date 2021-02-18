@@ -1,4 +1,7 @@
 {
+    "composer/package-versions-deprecated": {
+        "version": "1.11.99.1"
+    },
     "doctrine/annotations": {
         "version": "1.0",
         "recipe": {
@@ -338,9 +341,6 @@
     "symfony/options-resolver": {
         "version": "v5.0.0"
     },
-    "symfony/orm-pack": {
-        "version": "v1.0.7"
-    },
     "symfony/phpunit-bridge": {
         "version": "5.1",
         "recipe": {
@@ -388,9 +388,6 @@
     },
     "symfony/property-info": {
         "version": "v5.0.0"
-    },
-    "symfony/proxy-manager-bridge": {
-        "version": "v5.0.11"
     },
     "symfony/routing": {
         "version": "5.1",
