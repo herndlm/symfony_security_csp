@@ -3,8 +3,9 @@
     "config:base",
     ":rebaseStalePrs",
     ":semanticCommits",
-    ":semanticCommitScopeDisabled",
     ":semanticCommitTypeAll(chore)"
   ],
-  "rangeStrategy": "update-lockfile"
+  "prCreation": "not-pending",
+  "rangeStrategy": "update-lockfile",
+  "stabilityDays": 3
 }
